@@ -1,0 +1,86 @@
+Ability to save interviewee details
+
+Name
+Mobile number (optional)
+DOB (optional)
+CV
+Interview date
+ 
+
+User roles
+
+HR team – to schedule
+Interviewer – can have many levels
+Feedback from 1 level to be passed to another higher level
+Ability to rate on some parameters
+Admin – Super-user access to delete/add/modify record
+ 
+
+Functionalities
+
+Security aspect – encrypt and store in DB
+Search by name/mobile no./interview date/technology - free text search using a single text box
+Retrieve all interview data onto a web-page
+ 
+
+Interviewee details screen (editable by only HR role and Admin role)
+
+Name
+Mobile number
+DOB
+CV/Resume Uploaded
+Interview date (in case multiple, mention each)
+Years of experience
+Technology (optional
+ 
+
+HR role
+
+Log-in
+To save the interview details mentioned above
+To schedule the interview
+Assign a time for interview
+Assign the interviewer
+Send notification to interviewer (optional)
+ 
+
+Interviewer role – can have many levels
+
+Log-in
+Should check "Interviewee Details"
+Feedback from 1 level to be passed to another higher level
+Ability to rate on some parameters
+“Auto save"
+"Submit" the feedback
+Send notification to HR team (optional)
+ 
+
+Admin role
+
+Log-in
+Super-user access to delete/add/modify any information
+ 
+
+Retrieve all data onto a single web-page
+
+Interviewee details
+Interview 1 feedback
+Interview 2 feedback
+And so on..
+ 
+
+UI similar to Sangam - Interview feedback form
+
+Candidate Name
+Date
+Start Time
+End Time
+Interviewer
+Score
+Strengths
+Weaknesses
+Areas covered
+Areas not covered
+Interview Notes
+Take a picture of any papers on which assignments are done, approach etc. and upload it
+ 
