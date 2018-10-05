@@ -20,6 +20,7 @@ class FeedbackController {
     }
 
     def displayFeedback(){
+        log.info("=========== Inside displayFeedback() =============")
         render(view: 'viewFeedback.gsp' , model: [interviewees:Interviewee.list()])
     }
 
